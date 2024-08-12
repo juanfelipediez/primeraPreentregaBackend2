@@ -1,0 +1,35 @@
+<div>
+    <h1>List of products</h1>
+    <ul id="list">
+        {{#each result.payload}}
+        <li>
+            {{#if ../cid}}
+            <a href="{{../result.currentLink}}&pid={{this._id}}" >Add to the cart</a>
+            {{/if}}
+            Product: {{this.title}} | Price: ${{this.price}} | code: {{this.code}} | stock: {{this.stock}} | category: {{this.category}}
+        </li>
+        {{/each}}
+    </ul>
+
+</div>
+
+
+
+<div id="pagination">
+    <h5>Current page: {{result.page}} </h5>
+    {{#if result.hasPrevPage}}
+        <a href={{result.prevLink}} class="button">Previous page</a>
+    {{/if}}
+    {{#if result.hasNextPage}}
+        <a href={{result.nextLink}} class="button">Next page</a>
+    {{/if}}
+
+</div>
+
+<div id="goToCart">
+    {{#if cid}}
+    <a href="http://localhost:5000/carts/{{cid}}" >Explore your cart</a>
+    {{/if}}
+</div>
+
+<!--<script src="/js/index.js"></script>

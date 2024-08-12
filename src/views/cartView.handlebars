@@ -1,0 +1,17 @@
+<div>
+    <h1>List of products in your cart</h1>
+    <ul id="list">
+        {{#each cart.includedProducts}}
+        <li>
+            <a href="http://localhost:5000/carts/{{../cart._id}}/?pid={{this.product._id}}" >Delete</a>
+            Product: {{this.product.title}} | Price: ${{this.product.price}} | Quantity: {{this.quantity}}
+        </li>
+        {{/each}}
+    </ul>
+            <a href="http://localhost:5000/{{cart._id}}" >Back to the shop</a>
+</div>
+
+
+
+
+

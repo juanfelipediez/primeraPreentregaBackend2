@@ -1,0 +1,702 @@
+[
+    {
+	        "title": "Hamburger",
+        "description": "Cheese hamburger with tomato and lettuce",
+        "code": "hmb",
+        "price": "6800",
+        "status": true,
+        "stock": "5",
+        "category": "sandwiches",
+        "thumbnails": "./images/img1"
+    },
+	{
+	        "title": "Cheeseburger",
+        "description": "Hamburger with double cheese",
+        "code": "chsbrg",
+        "price": "7000",
+        "status": true,
+        "stock": "10",
+        "category": "sandwiches",
+        "thumbnails": "./images/img2"
+    },
+    {
+        "title": "Hot Dog",
+        "description": "Hot dog with ketchup and mustard",
+        "code": "htdg",
+        "price": "3500",
+        "status": true,
+        "stock": "20",
+        "category": "sandwiches",
+        "thumbnails": "./images/img3"
+    },
+    {
+        "title": "Pizza Margherita",
+        "description": "Classic pizza with tomato and mozzarella",
+        "code": "pzmg",
+        "price": "12000",
+        "status": true,
+        "stock": "15",
+        "category": "pizzas",
+        "thumbnails": "./images/img4"
+    },
+    {
+        "title": "Pepperoni Pizza",
+        "description": "Pizza with pepperoni slices",
+        "code": "pzppr",
+        "price": "14000",
+        "status": true,
+        "stock": "10",
+        "category": "pizzas",
+        "thumbnails": "./images/img5"
+    },
+    {
+        "title": "Vegetarian Pizza",
+        "description": "Pizza with assorted vegetables",
+        "code": "pzveg",
+        "price": "13000",
+        "status": true,
+        "stock": "12",
+        "category": "pizzas",
+        "thumbnails": "./images/img6"
+    },
+    {
+        "title": "Caesar Salad",
+        "description": "Salad with romaine lettuce, croutons, and Caesar dressing",
+        "code": "csld",
+        "price": "8000",
+        "status": true,
+        "stock": "8",
+        "category": "salads",
+        "thumbnails": "./images/img7"
+    },
+    {
+        "title": "Greek Salad",
+        "description": "Salad with cucumber, tomato, olives, and feta cheese",
+        "code": "grksld",
+        "price": "7500",
+        "status": true,
+        "stock": "7",
+        "category": "salads",
+        "thumbnails": "./images/img8"
+    },
+    {
+        "title": "Tuna Salad",
+        "description": "Salad with tuna, lettuce, and boiled eggs",
+        "code": "tnsld",
+        "price": "8500",
+        "status": true,
+        "stock": "5",
+        "category": "salads",
+        "thumbnails": "./images/img9"
+    },
+    {
+        "title": "Spaghetti Bolognese",
+        "description": "Pasta with meat sauce",
+        "code": "spblg",
+        "price": "11000",
+        "status": true,
+        "stock": "10",
+        "category": "pasta",
+        "thumbnails": "./images/img10"
+    },
+    {
+        "title": "Fettuccine Alfredo",
+        "description": "Pasta with creamy Alfredo sauce",
+        "code": "ftalfr",
+        "price": "11500",
+        "status": true,
+        "stock": "8",
+        "category": "pasta",
+        "thumbnails": "./images/img11"
+    },
+    {
+        "title": "Penne Arrabiata",
+        "description": "Pasta with spicy tomato sauce",
+        "code": "pnarr",
+        "price": "10500",
+        "status": true,
+        "stock": "12",
+        "category": "pasta",
+        "thumbnails": "./images/img12"
+    },
+    {
+        "title": "Chicken Wings",
+        "description": "Spicy chicken wings",
+        "code": "ckwngs",
+        "price": "9000",
+        "status": true,
+        "stock": "20",
+        "category": "appetizers",
+        "thumbnails": "./images/img13"
+    },
+    {
+        "title": "Mozzarella Sticks",
+        "description": "Fried mozzarella cheese sticks",
+        "code": "mzstks",
+        "price": "8000",
+        "status": true,
+        "stock": "15",
+        "category": "appetizers",
+        "thumbnails": "./images/img14"
+    },
+    {
+        "title": "Onion Rings",
+        "description": "Crispy onion rings",
+        "code": "onrngs",
+        "price": "6000",
+        "status": true,
+        "stock": "25",
+        "category": "appetizers",
+        "thumbnails": "./images/img15"
+    },
+    {
+        "title": "Chocolate Cake",
+        "description": "Rich chocolate cake",
+        "code": "chocake",
+        "price": "7000",
+        "status": true,
+        "stock": "10",
+        "category": "desserts",
+        "thumbnails": "./images/img16"
+    },
+    {
+        "title": "Cheesecake",
+        "description": "Classic New York cheesecake",
+        "code": "chescake",
+        "price": "7500",
+        "status": true,
+        "stock": "8",
+        "category": "desserts",
+        "thumbnails": "./images/img17"
+    },
+    {
+        "title": "Tiramisu",
+        "description": "Italian coffee-flavored dessert",
+        "code": "tiramisu",
+        "price": "8500",
+        "status": true,
+        "stock": "7",
+        "category": "desserts",
+        "thumbnails": "./images/img18"
+    },
+    {
+        "title": "Brownie",
+        "description": "Chocolate brownie",
+        "code": "brwnie",
+        "price": "5000",
+        "status": true,
+        "stock": "15",
+        "category": "desserts",
+        "thumbnails": "./images/img19"
+    },
+    {
+        "title": "Ice Cream",
+        "description": "Vanilla ice cream scoop",
+        "code": "icecrm",
+        "price": "3000",
+        "status": true,
+        "stock": "20",
+        "category": "desserts",
+        "thumbnails": "./images/img20"
+    },
+    {
+        "title": "Milkshake",
+        "description": "Chocolate milkshake",
+        "code": "mlkshk",
+        "price": "5000",
+        "status": true,
+        "stock": "12",
+        "category": "drinks",
+        "thumbnails": "./images/img21"
+    },
+    {
+        "title": "Lemonade",
+        "description": "Freshly squeezed lemonade",
+        "code": "lmnd",
+        "price": "4000",
+        "status": true,
+        "stock": "18",
+        "category": "drinks",
+        "thumbnails": "./images/img22"
+    },
+    {
+        "title": "Iced Tea",
+        "description": "Cold brewed iced tea",
+        "code": "icedtea",
+        "price": "3500",
+        "status": true,
+        "stock": "20",
+        "category": "drinks",
+        "thumbnails": "./images/img23"
+    },
+    {
+        "title": "Coffee",
+        "description": "Hot brewed coffee",
+        "code": "coffee",
+        "price": "2000",
+        "status": true,
+        "stock": "25",
+        "category": "drinks",
+        "thumbnails": "./images/img24"
+    },
+    {
+        "title": "Tea",
+        "description": "Hot brewed tea",
+        "code": "tea",
+        "price": "2000",
+        "status": true,
+        "stock": "30",
+        "category": "drinks",
+        "thumbnails": "./images/img25"
+    },
+    {
+        "title": "Orange Juice",
+        "description": "Freshly squeezed orange juice",
+        "code": "ornjce",
+        "price": "4000",
+        "status": true,
+        "stock": "15",
+        "category": "drinks",
+        "thumbnails": "./images/img26"
+    },
+    {
+        "title": "Water",
+        "description": "Bottled water",
+        "code": "water",
+        "price": "1000",
+        "status": true,
+        "stock": "50",
+        "category": "drinks",
+        "thumbnails": "./images/img27"
+    },
+    {
+        "title": "Coke",
+        "description": "Can of Coca-Cola",
+        "code": "coke",
+        "price": "2500",
+        "status": true,
+        "stock": "40",
+        "category": "drinks",
+        "thumbnails": "./images/img28"
+    },
+    {
+        "title": "Sprite",
+        "description": "Can of Sprite",
+        "code": "sprite",
+        "price": "2500",
+        "status": true,
+        "stock": "40",
+        "category": "drinks",
+        "thumbnails": "./images/img29"
+    },
+    {
+        "title": "Fanta",
+        "description": "Can of Fanta",
+        "code": "fanta",
+        "price": "2500",
+        "status": true,
+        "stock": "40",
+        "category": "drinks",
+        "thumbnails": "./images/img30"
+    },
+    {
+        "title": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken sandwich with lettuce and mayo",
+        "code": "grchkn",
+        "price": "6500",
+        "status": true,
+        "stock": "10",
+        "category": "sandwiches",
+        "thumbnails": "./images/img31"
+    },
+    {
+        "title": "BLT Sandwich",
+        "description": "Bacon, lettuce, and tomato sandwich",
+        "code": "blt",
+        "price": "7000",
+        "status": true,
+        "stock": "8",
+        "category": "sandwiches",
+        "thumbnails": "./images/img32"
+    },
+    {
+        "title": "Turkey Club",
+        "description": "Triple-decker turkey club sandwich",
+        "code": "trkyclb",
+        "price": "7500",
+        "status": true,
+        "stock": "7",
+        "category": "sandwiches",
+        "thumbnails": "./images/img33"
+    },
+    {
+        "title": "Beef Tacos",
+        "description": "Soft tacos filled with seasoned beef",
+        "code": "bftcs",
+        "price": "9000",
+        "status": true,
+        "stock": "15",
+        "category": "mexican",
+        "thumbnails": "./images/img34"
+    },
+    {
+        "title": "Chicken Quesadilla",
+        "description": "Grilled chicken quesadilla with cheese",
+        "code": "chksd",
+        "price": "9500",
+        "status": true,
+        "stock": "10",
+        "category": "mexican",
+        "thumbnails": "./images/img35"
+    },
+    {
+        "title": "Guacamole",
+        "description": "Fresh guacamole with tortilla chips",
+        "code": "gmlc",
+        "price": "8000",
+        "status": true,
+        "stock": "20",
+        "category": "mexican",
+        "thumbnails": "./images/img36"
+    },
+    {
+        "title": "Burrito",
+        "description": "Burrito filled with rice, beans, and beef",
+        "code": "brto",
+        "price": "10000",
+        "status": true,
+        "stock": "12",
+        "category": "mexican",
+        "thumbnails": "./images/img37"
+    },
+    {
+        "title": "Nachos",
+        "description": "Nachos with cheese and jalapenos",
+        "code": "nchs",
+        "price": "7000",
+        "status": true,
+        "stock": "18",
+        "category": "mexican",
+        "thumbnails": "./images/img38"
+    },
+    {
+        "title": "Chicken Parmesan",
+        "description": "Breaded chicken breast with marinara sauce and cheese",
+        "code": "cknpar",
+        "price": "12000",
+        "status": true,
+        "stock": "10",
+        "category": "italian",
+        "thumbnails": "./images/img39"
+    },
+    {
+        "title": "Lasagna",
+        "description": "Layers of pasta with meat and cheese",
+        "code": "lsgna",
+        "price": "13000",
+        "status": true,
+        "stock": "8",
+        "category": "italian",
+        "thumbnails": "./images/img40"
+    },
+    {
+        "title": "Caprese Salad",
+        "description": "Salad with tomatoes, mozzarella, and basil",
+        "code": "cpsld",
+        "price": "8500",
+        "status": true,
+        "stock": "7",
+        "category": "italian",
+        "thumbnails": "./images/img41"
+    },
+    {
+        "title": "Bruschetta",
+        "description": "Grilled bread with tomatoes and basil",
+        "code": "brsct",
+        "price": "7500",
+        "status": true,
+        "stock": "12",
+        "category": "italian",
+        "thumbnails": "./images/img42"
+    },
+    {
+        "title": "Gnocchi",
+        "description": "Potato dumplings with marinara sauce",
+        "code": "gnocchi",
+        "price": "11500",
+        "status": true,
+        "stock": "10",
+        "category": "italian",
+        "thumbnails": "./images/img43"
+    },
+    {
+        "title": "Ravioli",
+        "description": "Pasta filled with cheese or meat",
+        "code": "ravioli",
+        "price": "12000",
+        "status": true,
+        "stock": "8",
+        "category": "italian",
+        "thumbnails": "./images/img44"
+    },
+    {
+        "title": "Fish and Chips",
+        "description": "Fried fish with French fries",
+        "code": "fnchps",
+        "price": "11000",
+        "status": true,
+        "stock": "10",
+        "category": "seafood",
+        "thumbnails": "./images/img45"
+    },
+    {
+        "title": "Shrimp Scampi",
+        "description": "Shrimp sautéed in garlic and butter",
+        "code": "shrmps",
+        "price": "15000",
+        "status": true,
+        "stock": "8",
+        "category": "seafood",
+        "thumbnails": "./images/img46"
+    },
+    {
+        "title": "Grilled Salmon",
+        "description": "Grilled salmon with lemon butter",
+        "code": "grlsal",
+        "price": "16000",
+        "status": true,
+        "stock": "10",
+        "category": "seafood",
+        "thumbnails": "./images/img47"
+    },
+    {
+        "title": "Clam Chowder",
+        "description": "Creamy clam soup",
+        "code": "clmchd",
+        "price": "8500",
+        "status": true,
+        "stock": "12",
+        "category": "seafood",
+        "thumbnails": "./images/img48"
+    },
+    {
+        "title": "Lobster Roll",
+        "description": "Lobster meat in a toasted bun",
+        "code": "lbrtrl",
+        "price": "18000",
+        "status": true,
+        "stock": "5",
+        "category": "seafood",
+        "thumbnails": "./images/img49"
+    },
+    {
+        "title": "Sushi Roll",
+        "description": "Sushi roll with tuna and avocado",
+        "code": "sushrl",
+        "price": "14000",
+        "status": true,
+        "stock": "10",
+        "category": "seafood",
+        "thumbnails": "./images/img50"
+    },
+    {
+        "title": "Steak",
+        "description": "Grilled ribeye steak",
+        "code": "steak",
+        "price": "20000",
+        "status": true,
+        "stock": "5",
+        "category": "meat",
+        "thumbnails": "./images/img51"
+    },
+    {
+        "title": "Beef Burger",
+        "description": "Beef burger with cheese and bacon",
+        "code": "bfbgr",
+        "price": "9000",
+        "status": true,
+        "stock": "10",
+        "category": "meat",
+        "thumbnails": "./images/img52"
+    },
+    {
+        "title": "Pork Chops",
+        "description": "Grilled pork chops with apple sauce",
+        "code": "prkchp",
+        "price": "14000",
+        "status": true,
+        "stock": "8",
+        "category": "meat",
+        "thumbnails": "./images/img53"
+    },
+    {
+        "title": "Roast Beef",
+        "description": "Slow-roasted beef with gravy",
+        "code": "rstbf",
+        "price": "18000",
+        "status": true,
+        "stock": "7",
+        "category": "meat",
+        "thumbnails": "./images/img54"
+    },
+    {
+        "title": "Chicken Curry",
+        "description": "Spicy chicken curry with rice",
+        "code": "chkcrr",
+        "price": "13000",
+        "status": true,
+        "stock": "10",
+        "category": "asian",
+        "thumbnails": "./images/img55"
+    },
+    {
+        "title": "Beef Teriyaki",
+        "description": "Beef teriyaki with rice and vegetables",
+        "code": "bfter",
+        "price": "14000",
+        "status": true,
+        "stock": "8",
+        "category": "asian",
+        "thumbnails": "./images/img56"
+    },
+    {
+        "title": "Pad Thai",
+        "description": "Thai noodle stir-fry with shrimp",
+        "code": "padthai",
+        "price": "12500",
+        "status": true,
+        "stock": "10",
+        "category": "asian",
+        "thumbnails": "./images/img57"
+    },
+    {
+        "title": "Spring Rolls",
+        "description": "Fried spring rolls with dipping sauce",
+        "code": "sprngrl",
+        "price": "6000",
+        "status": true,
+        "stock": "15",
+        "category": "asian",
+        "thumbnails": "./images/img58"
+    },
+    {
+        "title": "Miso Soup",
+        "description": "Traditional Japanese miso soup",
+        "code": "msoup",
+        "price": "4000",
+        "status": true,
+        "stock": "12",
+        "category": "asian",
+        "thumbnails": "./images/img59"
+    },
+    {
+        "title": "Dim Sum",
+        "description": "Assorted Chinese dim sum",
+        "code": "dimsum",
+        "price": "9000",
+        "status": true,
+        "stock": "10",
+        "category": "asian",
+        "thumbnails": "./images/img60"
+    },
+    {
+        "title": "Falafel",
+        "description": "Deep-fried chickpea balls with hummus",
+        "code": "falafel",
+        "price": "7500",
+        "status": true,
+        "stock": "12",
+        "category": "middle eastern",
+        "thumbnails": "./images/img61"
+    },
+    {
+        "title": "Shawarma",
+        "description": "Grilled meat wrapped in pita bread",
+        "code": "shawrma",
+        "price": "10000",
+        "status": true,
+        "stock": "10",
+        "category": "middle eastern",
+        "thumbnails": "./images/img62"
+    },
+    {
+        "title": "Hummus",
+        "description": "Creamy chickpea dip with pita bread",
+        "code": "hummus",
+        "price": "6000",
+        "status": true,
+        "stock": "15",
+        "category": "middle eastern",
+        "thumbnails": "./images/img63"
+    },
+    {
+        "title": "Kebab",
+        "description": "Skewered grilled meat",
+        "code": "kebab",
+        "price": "11000",
+        "status": true,
+        "stock": "10",
+        "category": "middle eastern",
+        "thumbnails": "./images/img64"
+    },
+    {
+        "title": "Baklava",
+        "description": "Sweet pastry with nuts and honey",
+        "code": "baklava",
+        "price": "5000",
+        "status": true,
+        "stock": "20",
+        "category": "middle eastern",
+        "thumbnails": "./images/img65"
+    },
+    {
+        "title": "Pho",
+        "description": "Vietnamese noodle soup with beef",
+        "code": "pho",
+        "price": "12000",
+        "status": true,
+        "stock": "10",
+        "category": "asian",
+        "thumbnails": "./images/img66"
+    },
+    {
+        "title": "Kimchi",
+        "description": "Spicy fermented cabbage",
+        "code": "kimchi",
+        "price": "4500",
+        "status": true,
+        "stock": "15",
+        "category": "asian",
+        "thumbnails": "./images/img67"
+    },
+    {
+        "title": "Ramen",
+        "description": "Japanese noodle soup with pork",
+        "code": "ramen",
+        "price": "13000",
+        "status": true,
+        "stock": "8",
+        "category": "asian",
+        "thumbnails": "./images/img68"
+    },
+    {
+        "title": "Bibimbap",
+        "description": "Korean rice bowl with vegetables and egg",
+        "code": "bibimbap",
+        "price": "11000",
+        "status": true,
+        "stock": "10",
+        "category": "asian",
+        "thumbnails": "./images/img69"
+    },
+    {
+        "title": "Samosa",
+        "description": "Fried pastry filled with spiced potatoes",
+        "code": "samosa",
+        "price": "5000",
+        "status": true,
+        "stock": "20",
+        "category": "indian",
+        "thumbnails": "./images/img70"
+    }
+]
